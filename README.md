@@ -14,3 +14,28 @@
 ├── .gitignore
 └── READMD.md
 ```
+
+---
+
+### 🔨 기본 빌드 명령어
+✅ GCC (리눅스/macOS/Windows 공통)
+```bash
+gcc main.c -o main
+```
+| 항목	| 설명 |
+| --- | --- | 
+|gcc |	GNU C Compiler|
+| main.c	| 컴파일할 C 소스 파일 |
+| -o main | 출력 실행파일 이름 (Windows면 main.exe, macOS/Linux면 main) |
+
+### 🧪 실행 방법
+Linux/macOS:
+
+```bash
+./main
+```
+Windows (cmd 또는 PowerShell):
+
+```bash
+./main.exe
+```
